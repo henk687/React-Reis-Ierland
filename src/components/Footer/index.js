@@ -76,7 +76,7 @@ const Footer = () => {
                             <SocialLogo to='/' onClick={toggleHome}>
                                 Ierland
                             </SocialLogo>
-                            <WebsiteRights>Ierland © {new Date().getFullYear()} Alle rechten voorbehouden.</WebsiteRights>
+                            <WebsiteRights>Ierlandtt © {new Date().getFullYear()} Alle rechten voorbehouden.</WebsiteRights>
                         </SocialMediaWrap>
                     </SocialMedia>
                 </FooterWrap>
