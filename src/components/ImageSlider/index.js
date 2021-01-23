@@ -21,7 +21,7 @@ if (!Array.isArray(slides) || slides.length <= 0) {
 }
 
     return (
-        <section className="slider" id="afbeeldingen">
+        <section className="slider" id="afbeeldingen" data-aos='fade-up' data-aos-duration='3000' data-aos-once='true' data-aos-delay='600' data-aos-anchor-placements='center bottom'>
             <div className="sliderwrapper">
             <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
             <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>

@@ -16,7 +16,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
             <InfoContainer lightBg={lightBg} id={id}>
                 <InfoWrapper>
                     <InfoRow imgStart={imgStart}>
-                        <Column1>
+                        <Column1 data-aos='fade-up' data-aos-duration='1000' data-aos-once='true' data-aos-delay='250' data-aos-anchor-placements='center bottom'>
                             <TextWrapper>
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
@@ -39,7 +39,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt}/>
+                                <Img src={img} alt={alt} data-aos='zoom-out'  data-aos-duration='1000' data-aos-once='true' data-aos-delay='250' data-aos-anchor-placements='center bottom'/>
                             </ImgWrap>
                         </Column2>
                         <Modal showModal={showModal} setShowModal={setShowModal} />

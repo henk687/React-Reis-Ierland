@@ -17,11 +17,11 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='reisierland/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Ierland</HeroH1>
-                <HeroP>
+                <HeroH1 data-aos='fade-down' data-aos-duration='1000' data-aos-once='true' data-aos-delay='250' data-aos-anchor-placements='center bottom'>Ierland</HeroH1>
+                <HeroP data-aos='fade-down' data-aos-duration='1500' data-aos-once='true' data-aos-delay='250' data-aos-anchor-placements='center bottom'>
                     Rondreis 2018
                 </HeroP>
-                <HeroBtnWrapper>
+                <HeroBtnWrapper data-aos='zoom-out' data-aos-duration='1000' data-aos-once='true' data-aos-delay='250' data-aos-anchor-placements='center bottom'>
                     <Button 
                         to='bestemming' 
                         smooth={true}
