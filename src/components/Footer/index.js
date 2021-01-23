@@ -1,7 +1,8 @@
 import React from 'react'
 import {animateScroll as scroll} from 'react-scroll'
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, 
-SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights} from './FooterElements'
+SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink, FooterLinkSocial} from './FooterElements'
+import {FaInstagram} from 'react-icons/fa'
 
 const Footer = () => {
     const toggleHome = () => {
@@ -67,7 +68,10 @@ const Footer = () => {
                                             Afbeeldingen
                                     </FooterLink>          
                             </FooterLinkItems>
-                            
+                            <FooterLinkItems>
+                                <FooterLinkTitle>Social Media</FooterLinkTitle>
+                                <FooterLinkSocial href="https://www.instagram.com/awesomevietnamtravel/?hl=nl" target="_blank">Instagram</FooterLinkSocial>
+                            </FooterLinkItems>
                         </FooterLinksWrapper>
                         
                     </FooterLinksContainer>
@@ -77,6 +81,9 @@ const Footer = () => {
                                 Ierland
                             </SocialLogo>
                             <WebsiteRights>Ierland © {new Date().getFullYear()} Alle rechten voorbehouden.</WebsiteRights>
+                            <SocialIcons>
+                                <SocialIconLink href="https://www.instagram.com/awesomevietnamtravel/?hl=nl" target="_blank" aria-label="Instagram"><FaInstagram /></SocialIconLink>
+                            </SocialIcons>
                         </SocialMediaWrap>
                     </SocialMedia>
                 </FooterWrap>

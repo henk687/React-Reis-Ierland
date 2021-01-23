@@ -67,6 +67,19 @@ export const FooterLink = styled(Link)`
     }
 `
 
+export const FooterLinkSocial = styled.a`
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+
+    &:hover {
+        color: #01bf71;
+        transition: 0.3s ease-out;
+    }
+`
+
 export const SocialMedia = styled.section`
     max-width: 1000px;
     width: 100%;
@@ -101,7 +114,7 @@ export const WebsiteRights = styled.small`
     margin-bottom: 16px;
 `
 
-/*export const SocialIcons = styled.div`
+export const SocialIcons = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,4 +124,4 @@ export const WebsiteRights = styled.small`
 export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
-`*/
+`
